@@ -1,6 +1,6 @@
 {
-  "name": "segmentio-facade",
-  "version": "3.2.6",
+  "name": "@lattebank/analytics.js-facade",
+  "version": "3.2.6-1",
   "description": "Providing common fields for analytics integrations",
   "keywords": [],
   "main": "lib/index.js",
@@ -8,16 +8,8 @@
     "eslint": "eslint ./lib/*.js; exit 0",
     "test": "make test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/segmentio/facade.git"
-  },
-  "author": "Segment <friends@segment.com>",
-  "license": "SEE LICENSE IN LICENSE",
-  "bugs": {
-    "url": "https://github.com/segmentio/facade/issues"
-  },
-  "homepage": "https://github.com/segmentio/facade#readme",
+  "repository": "https://github.com/lattebank/analytics.js-facade",
+  "license": "MIT",
   "dependencies": {
     "@lattebank/analytics.js-isodate-traverse": "1.1.0-1",
     "@lattebank/analytics.js-obj-case": "0.2.1-1",
