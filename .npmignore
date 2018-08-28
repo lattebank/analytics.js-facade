@@ -2,3 +2,12 @@ support
 test
 examples
 *.sock
+
+docs/
+node_modules/
+test/
+bench.js
+circle.yml
+karma.conf.ci.js
+karma.conf.js
+Makefile
